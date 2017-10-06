@@ -97,8 +97,8 @@
 # print(func(name="Bob",job="HZ"))
 
 s = input('Enter value: ')
-  try:
+try:
     s = int(s)
-  except:
+except:
     print('Error')
 

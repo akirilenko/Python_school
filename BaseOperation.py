@@ -59,9 +59,10 @@
 #
 # print(__name__)
 #
-# if __name__==__name__:
-#     print (repeat ("wow",True))
-
+# if __name__=="__main__":
+#      print (repeat ("wow",True))
+#      print(__name__)
+#
 
 # r = repeat ("wow",True)
 # print(r)
@@ -90,7 +91,14 @@
 #
 # print (args)
 
-def func(**kwargs):
-    return  kwargs.get('name') +' is ' + kwargs.get('job')
+# def func(**kwargs):
+#     return  kwargs.get('name') +' is ' + kwargs.get('job')
+#
+# print(func(name="Bob",job="HZ"))
 
-print(func(name="Bob",job="HZ"))
+s = input('Enter value: ')
+  try:
+    s = int(s)
+  except:
+    print('Error')
+

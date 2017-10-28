@@ -95,10 +95,40 @@
 #     return  kwargs.get('name') +' is ' + kwargs.get('job')
 #
 # print(func(name="Bob",job="HZ"))
+#
+# s = input('Enter value: ')
+# try:
+#     s = int(s)
+# except:
+#     print('Error')
+#
+# s, i='10',0
+# try:
+#     s = int(s)/i
+# except ValueError as e:
+#     print (e)
+# except ZeroDivisionError:
+#     print ('Zero division error')
+# while True:
+#     s = input("Enter words without speces: ")
+#     k=0
+#     if ( s.strip().lower() == "q"): break
+#     else:
+#         s=s.strip()
+#         for i in range(len(s)) :
+#             k=k+1
+#             # if (s[i]==' '):
+#             #     print("Without space, please! ")
+#             #     break
+#             assert (s[i]!=" ")
+#         if (k==len(s)):
+#                 print("Well done")
+#                 break
+#
 
-s = input('Enter value: ')
-try:
-    s = int(s)
-except:
-    print('Error')
+
+
+
+
+
 
